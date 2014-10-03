@@ -1,4 +1,4 @@
-// motet - The MOTET Stream Cipher & Scrambler in C
+// motet.c - The MOTET Stream Cipher & Scrambler in C
 // MOTET  Copyright C.C.Kayne 2014, GNU GPL V.3, cckayne@gmail.com  
 
 #include <stdio.h>

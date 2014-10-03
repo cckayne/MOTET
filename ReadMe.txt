@@ -25,7 +25,7 @@ Arguments must be passed in the usage order, and all are required.
 What is MOTET?
 --------------
 
-MOTET is a tiny, fast, super-encipherment application written in C, featuring the new CSPRNG/stream ciphers MOTE and BEDBUG in each of their three variants, as well as the "gold standard" among ciphers, ISAAC. 
+MOTET is a tiny, fast super-encipherment application written in C, featuring the new CSPRNG/stream ciphers MOTE and BEDBUG in each of their three variants, as well as the "gold standard" among ciphers, ISAAC. 
 
 MOTET brings multiple levels of encryption, including a ciphertext-hash, a Vigenere mixing function, a choice of Vernam, Caesar MOD, or Caesar MIX ciphering on the primary key-stream, plus a deeply scrambled "outer shell" as a final super-encryption stage. A unique nonce IV guarantees that each ciphertext will differ radically from every other, even on the same message and identical key.
 
@@ -66,7 +66,7 @@ You are cordially invited to try breaking the three short MOTET encipherments in
 
 
 Compiling MOTET
---------------
+---------------
 
 MOTET compilation has been tested with tcc in Win32 and gcc on Linux.
 
@@ -98,3 +98,4 @@ https://github.com/cckayne/BEDBUG
 https://code.google.com/p/bedbug-csprng-stream-cipher/
 https://sourceforge.net/projects/bedbug-csprng-stream-cipher/
 https://github.com/cckayne/MOTE
+https://code.google.com/p/mote-csprng-stream-cipher/
